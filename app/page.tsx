@@ -31,9 +31,8 @@ export default function Home() {
         className="relative isolate flex min-h-[100svh] items-center bg-[radial-gradient(circle_at_78%_18%,rgba(207,45,92,0.22),transparent_28rem),radial-gradient(circle_at_10%_16%,rgba(120,20,54,0.24),transparent_24rem),linear-gradient(180deg,#050706_0%,#12060b_100%)] px-7 py-8 sm:px-8 lg:px-12"
       >
         <div className="hero-grid absolute inset-0 -z-20 opacity-70" />
-        <div className="absolute inset-x-0 top-0 -z-10 h-28 border-b border-white/10 bg-black/25 backdrop-blur-xl" />
 
-        <div className="mx-auto flex w-full max-w-7xl flex-col gap-10 pt-28 sm:pt-8 lg:grid lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-14 lg:pt-10">
+        <div className="mx-auto flex w-full max-w-7xl flex-col gap-10 pt-16 sm:pt-8 lg:grid lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-14 lg:pt-10">
           <div className="max-w-3xl">
             <h1
               id="hero-title"

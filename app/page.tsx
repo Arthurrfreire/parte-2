@@ -33,7 +33,7 @@ export default function Home() {
         <div className="hero-grid absolute inset-0 -z-20 opacity-70" />
         <div className="absolute inset-x-0 top-0 -z-10 h-28 border-b border-white/10 bg-black/25 backdrop-blur-xl" />
 
-        <div className="mx-auto flex w-full max-w-7xl flex-col gap-10 pt-8 lg:grid lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-14 lg:pt-10">
+        <div className="mx-auto flex w-full max-w-7xl flex-col gap-10 pt-16 sm:pt-8 lg:grid lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-14 lg:pt-10">
           <div className="max-w-3xl">
             <h1
               id="hero-title"
@@ -71,12 +71,13 @@ export default function Home() {
               {benefits.map((benefit) => (
                 <li
                   key={benefit}
-                  className="group flex min-h-24 items-start gap-4 rounded-lg border border-white/12 bg-[linear-gradient(135deg,rgba(255,255,255,0.055),rgba(207,45,92,0.055))] px-5 py-5 shadow-[0_14px_44px_rgba(0,0,0,0.2)] backdrop-blur transition duration-200 hover:-translate-y-1 hover:border-[#ffadc5]/45 hover:bg-[linear-gradient(135deg,rgba(207,45,92,0.16),rgba(255,255,255,0.045))] hover:shadow-[0_22px_60px_rgba(0,0,0,0.34)]"
+                  tabIndex={0}
+                  className="group flex min-h-24 items-start gap-4 rounded-lg border border-white/12 bg-[linear-gradient(135deg,rgba(255,255,255,0.055),rgba(207,45,92,0.055))] px-5 py-5 shadow-[0_14px_44px_rgba(0,0,0,0.2)] backdrop-blur transition duration-200 hover:-translate-y-1 hover:border-[#ffadc5]/45 hover:bg-[linear-gradient(135deg,rgba(207,45,92,0.16),rgba(255,255,255,0.045))] hover:shadow-[0_22px_60px_rgba(0,0,0,0.34)] active:-translate-y-1 active:border-[#ffadc5]/55 active:bg-[linear-gradient(135deg,rgba(207,45,92,0.18),rgba(255,255,255,0.05))] active:shadow-[0_22px_60px_rgba(0,0,0,0.34)] focus-visible:-translate-y-1 focus-visible:border-[#ffadc5]/55 focus-visible:bg-[linear-gradient(135deg,rgba(207,45,92,0.18),rgba(255,255,255,0.05))]"
                 >
-                  <span className="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-full bg-[#cf2d5c] text-base font-black text-white shadow-[0_0_24px_rgba(207,45,92,0.28)] transition group-hover:scale-110 group-hover:shadow-[0_0_34px_rgba(207,45,92,0.48)]">
+                  <span className="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-full bg-[#cf2d5c] text-base font-black text-white shadow-[0_0_24px_rgba(207,45,92,0.28)] transition group-hover:scale-110 group-hover:shadow-[0_0_34px_rgba(207,45,92,0.48)] group-active:scale-110 group-active:shadow-[0_0_34px_rgba(207,45,92,0.48)] group-focus-visible:scale-110 group-focus-visible:shadow-[0_0_34px_rgba(207,45,92,0.48)]">
                     +
                   </span>
-                  <span className="text-lg leading-7 text-white/82 transition group-hover:text-white">
+                  <span className="text-lg leading-7 text-white/82 transition group-hover:text-white group-active:text-white group-focus-visible:text-white">
                     {benefit}
                   </span>
                 </li>

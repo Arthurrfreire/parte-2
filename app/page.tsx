@@ -28,7 +28,7 @@ export default function Home() {
       <main id="principal" tabIndex={-1} className="min-h-screen overflow-hidden">
       <section
         aria-labelledby="hero-title"
-        className="relative isolate flex min-h-[100svh] items-center bg-[radial-gradient(circle_at_78%_18%,rgba(207,45,92,0.22),transparent_28rem),radial-gradient(circle_at_10%_16%,rgba(120,20,54,0.24),transparent_24rem),linear-gradient(180deg,#050706_0%,#12060b_100%)] px-3 py-8 sm:px-8 lg:px-12"
+        className="relative isolate flex min-h-[100svh] items-center bg-[radial-gradient(circle_at_78%_18%,rgba(207,45,92,0.22),transparent_28rem),radial-gradient(circle_at_10%_16%,rgba(120,20,54,0.24),transparent_24rem),linear-gradient(180deg,#050706_0%,#12060b_100%)] px-7 py-8 sm:px-8 lg:px-12"
       >
         <div className="hero-grid absolute inset-0 -z-20 opacity-70" />
         <div className="absolute inset-x-0 top-0 -z-10 h-28 border-b border-white/10 bg-black/25 backdrop-blur-xl" />
@@ -55,13 +55,13 @@ export default function Home() {
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
                 href="#matricula"
-                className="inline-flex min-h-16 w-full items-center justify-center rounded-[28px] border border-[#ffadc5] bg-[#cf2d5c] px-5 text-lg font-bold text-white shadow-[0_16px_0_#050706] transition hover:translate-y-1 hover:bg-[#e03a6d] hover:shadow-[0_10px_0_#050706] active:translate-y-3 active:shadow-[0_4px_0_#050706] focus-visible:outline-[#ffadc5] sm:w-auto sm:min-w-[330px] sm:px-8"
+                className="inline-flex min-h-16 w-full items-center justify-center rounded-[28px] border border-[#ffadc5] bg-[#cf2d5c] px-7 text-lg font-bold text-white shadow-[0_16px_0_#050706] transition hover:translate-y-1 hover:bg-[#e03a6d] hover:shadow-[0_10px_0_#050706] active:translate-y-3 active:shadow-[0_4px_0_#050706] focus-visible:outline-[#ffadc5] sm:w-auto sm:min-w-[330px] sm:px-8"
               >
                 Quero comecar agora
               </a>
               <a
                 href="#conteudo"
-                className="inline-flex min-h-16 w-full items-center justify-center rounded-[28px] border border-white/28 bg-white/[0.04] px-5 text-lg font-bold text-white shadow-[0_16px_0_#050706] transition hover:translate-y-1 hover:border-[#ffadc5]/70 hover:bg-white/[0.1] hover:shadow-[0_10px_0_#050706] active:translate-y-3 active:shadow-[0_4px_0_#050706] focus-visible:outline-[#ffadc5] sm:w-auto sm:min-w-[330px] sm:px-8"
+                className="inline-flex min-h-16 w-full items-center justify-center rounded-[28px] border border-white/28 bg-white/[0.04] px-7 text-lg font-bold text-white shadow-[0_16px_0_#050706] transition hover:translate-y-1 hover:border-[#ffadc5]/70 hover:bg-white/[0.1] hover:shadow-[0_10px_0_#050706] active:translate-y-3 active:shadow-[0_4px_0_#050706] focus-visible:outline-[#ffadc5] sm:w-auto sm:min-w-[330px] sm:px-8"
               >
                 Ver o que vou aprender
               </a>
@@ -71,7 +71,7 @@ export default function Home() {
               {benefits.map((benefit) => (
                 <li
                   key={benefit}
-                  className="group flex min-h-24 items-start gap-4 rounded-lg border border-white/12 bg-[linear-gradient(135deg,rgba(255,255,255,0.055),rgba(207,45,92,0.055))] px-4 py-5 shadow-[0_14px_44px_rgba(0,0,0,0.2)] backdrop-blur transition duration-200 hover:-translate-y-1 hover:border-[#ffadc5]/45 hover:bg-[linear-gradient(135deg,rgba(207,45,92,0.16),rgba(255,255,255,0.045))] hover:shadow-[0_22px_60px_rgba(0,0,0,0.34)] sm:px-5"
+                  className="group flex min-h-24 items-start gap-4 rounded-lg border border-white/12 bg-[linear-gradient(135deg,rgba(255,255,255,0.055),rgba(207,45,92,0.055))] px-5 py-5 shadow-[0_14px_44px_rgba(0,0,0,0.2)] backdrop-blur transition duration-200 hover:-translate-y-1 hover:border-[#ffadc5]/45 hover:bg-[linear-gradient(135deg,rgba(207,45,92,0.16),rgba(255,255,255,0.045))] hover:shadow-[0_22px_60px_rgba(0,0,0,0.34)]"
                 >
                   <span className="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-full bg-[#cf2d5c] text-base font-black text-white shadow-[0_0_24px_rgba(207,45,92,0.28)] transition group-hover:scale-110 group-hover:shadow-[0_0_34px_rgba(207,45,92,0.48)]">
                     +

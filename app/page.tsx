@@ -33,7 +33,7 @@ export default function Home() {
         <div className="hero-grid absolute inset-0 -z-20 opacity-70" />
         <div className="absolute inset-x-0 top-0 -z-10 h-28 border-b border-white/10 bg-black/25 backdrop-blur-xl" />
 
-        <div className="mx-auto flex w-full max-w-7xl flex-col gap-10 pt-16 sm:pt-8 lg:grid lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-14 lg:pt-10">
+        <div className="mx-auto flex w-full max-w-7xl flex-col gap-10 pt-28 sm:pt-8 lg:grid lg:grid-cols-[1.02fr_0.98fr] lg:items-center lg:gap-14 lg:pt-10">
           <div className="max-w-3xl">
             <h1
               id="hero-title"
@@ -52,7 +52,7 @@ export default function Home() {
               sem enrolacao.
             </p>
 
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-9 flex flex-col gap-8 sm:flex-row sm:gap-3">
               <a
                 href="#matricula"
                 className="inline-flex min-h-16 w-full items-center justify-center rounded-[28px] border border-[#ffadc5] bg-[#cf2d5c] px-7 text-lg font-bold text-white shadow-[0_16px_0_#050706] transition hover:translate-y-1 hover:bg-[#e03a6d] hover:shadow-[0_10px_0_#050706] active:translate-y-3 active:shadow-[0_4px_0_#050706] focus-visible:outline-[#ffadc5] sm:w-auto sm:min-w-[330px] sm:px-8"
